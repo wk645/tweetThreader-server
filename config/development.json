@@ -9,5 +9,5 @@
   "server": {
     "port": 8081,
     "httpsPort": 8082
-  },
+  }
 }

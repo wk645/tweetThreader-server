@@ -22,14 +22,14 @@ export default class ExpressServer {
     listen(port = process.env.PORT) {
         return new Promise(resolve => {
             app.listen(port, () => {
-                console.log(`Up and running in ${process.env.NODE_ENV || 'development'} @: ${os.hostname()} on port: ${port}`);
+                console.log(`Up and running in ${process.env.NODE_ENV || 'development'} @: ${os.hostname()} on port: ${port}`); // eslint-disable-line no-console
                 resolve(app);
 
                 ['SIGINT', 'SIGTERM'].forEach(signal => process.on(signal, () => {
                     process.exit(0);
                 }));
             }).on('error', error => {
-                console.error('error in server.js: ', error);
+                console.error('error in server.js: ', error); // eslint-disable-line no-console
                 process.exit(0);
             });
         });

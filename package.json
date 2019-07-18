@@ -14,13 +14,14 @@
     "type": "git",
     "url": "git+https://github.com/wk645/airqual-server.git"
   },
-  "author": "Zoey (Woo Jeong)",
+  "author": "Zoey (Woo Jeong) Kim",
   "license": "ISC",
   "dependencies": {
     "@babel/cli": "7.5.0",
     "@babel/core": "7.5.4",
     "@babel/node": "7.5.0",
     "@babel/preset-env": "7.5.4",
+    "axios": "0.19.0",
     "babel-eslint": "10.0.2",
     "body-parser": "1.19.0",
     "config": "3.1.0",
@@ -35,7 +36,8 @@
     "os": "0.1.1",
     "pg": "7.11.0",
     "sequelize": "5.10.0",
-    "sequelize-cli": "5.5.0"
+    "sequelize-cli": "5.5.0",
+    "twitter": "1.7.1"
   },
   "devDependencies": {
     "eslint-plugin-import": "2.18.0"

@@ -1,13 +1,12 @@
 {
-  "db": {
-    "username": "convene_db_user",
-    "password": "convene_db_password",
-    "database": "boilerplate_back_end_web",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
-  },
-  "server": {
-    "port": 8081,
-    "httpsPort": 8082
-  }
+    "server": {
+        "port": 8081,
+        "httpsPort": 8082
+    },
+    "twitter": {
+        "consumerApiKey": "VeSgRCysJGsWVeLQI2cDtRL4A",
+        "consumerApiSecret": "c8OZwHL5LggV9a5N4NnBlcuKOeAOMXwaHy4VXpx4jIJFiYjPw2",
+        "accessTokenKey": "979584634550996993-zVZV0oht6pSrqlb714ZOexOi76BJtXI",
+        "accessTokenSecret": "SoRmxuvIaIfuRml4AQKnW2UCLvXDcwfSJaO4xnTT05gIp"
+    }
 }

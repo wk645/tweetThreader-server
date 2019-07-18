@@ -1,6 +1,7 @@
-import airRouter from './api/controllers/air/router';
+import homeRouter from './api/controllers/home/router';
 
 export default function routes(app) {
-    // app.use('/', homeRouter);
-    app.use('/api/airqual/v1/air', airRouter);
+    const baseURL = '/api/tweetThreader/v1';
+
+    app.use(`${baseURL}/home`, homeRouter);
 }
